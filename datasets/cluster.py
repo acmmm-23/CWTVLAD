@@ -146,3 +146,5 @@ if __name__ == '__main__':
     parser.add_argument('--logs-dir', type=str, metavar='PATH',
                         default=osp.join(working_dir, '..', 'logs'))
     main()
+
+    
