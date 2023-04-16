@@ -1,6 +1,6 @@
 # CWTVLAD for Visual Place Recognition
 
-![image](https://github.com/XuYifan98/CWTVLAD/blob/main/figs/VPR_Task.png)
+![image](https://github.com/acmmm-23/CWTVLAD/blob/main/figs/VPR_Task.png)
 
 ## Introduction
 `CWTVLAD` is a PyTorch implementation for our ACM MM paper "CWTVLAD: Scale-wise Clustering-based ...". It is an open-source codebase for visual place recognition.
@@ -17,11 +17,11 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 
 The network is VGG-16/MobileNetV3-Large + CWTVLAD, trained on Pitts30k dataset. The dimension of the global descriptor is 4096.
 
-![image](https://github.com/XuYifan98/CWTVLAD/blob/main/figs/cwtvlad_quantitative%20results.png)
+![image](https://github.com/acmmm-23/CWTVLAD/blob/main/figs/cwtvlad_quantitative%20results.png)
 
 From the above table, we can see that our method outperforms other baseline methods on most of the benchmarks with lower complexity. You can get some ideas of why our trained networks perform better from the following figure:
 
-![image](https://github.com/XuYifan98/CWTVLAD/blob/main/figs/cwtvlad_qualitative%20results.png)
+![image](https://github.com/acmmm-23/CWTVLAD/blob/main/figs/cwtvlad_qualitative%20results.png)
 
 As can be seen, our model focuses on discriminative regions (e.g. buildings, signs), while the other two models falsely focus on dynamic objects or obstacles (e.g.
 pedestrians, cars, trees and light).
