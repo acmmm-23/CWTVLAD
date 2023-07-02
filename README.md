@@ -1,4 +1,4 @@
-# The attention maps of "vgg16+CWTVLAD+PSS" compared to "vgg16+CWTVLAD+SFRS"
+# The following figure shows the attention maps of "VGG16+CWTVLAD+PSS" compared to "VGG16+CWTVLAD+SFRS"
 
 ![image](https://github.com/acmmm-23/CWTVLAD/blob/main/figs/PSS_attention_map.png)
 
