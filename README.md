@@ -1,3 +1,7 @@
+# The attention maps of "vgg16+CWTVLAD+PSS" compared to "vgg16+CWTVLAD+SFRS"
+
+![image](https://github.com/acmmm-23/CWTVLAD/blob/main/figs/PSS_attention_map.png)
+
 # CWTVLAD for Visual Place Recognition
 
 ![image](https://github.com/acmmm-23/CWTVLAD/blob/main/figs/VPR_Task.png)
